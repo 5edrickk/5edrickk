@@ -46,7 +46,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/5edrickk/5edrickk/output/snake.svg" alt="Snake animation" />
+<div class="tenor-gif-embed" data-postid="14838989" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/luci-disenchantment-noice-nice-gif-14838989">Luci Disenchantment GIF</a>from <a href="https://tenor.com/search/luci-gifs">Luci GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 ###
 
