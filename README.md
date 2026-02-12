@@ -1,59 +1,57 @@
-## Hi there 👋
-# 5edrickk.com
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
 
-Personal website and development portfolio.
+###
 
-This repository serves as a central place for my personal projects, technical studies, and experiments in software development. It reflects my learning process, design decisions, and practical experience across different technologies.
+<p align="left">Hi 👋! My name is ... and I'm a ..., from ....</p>
 
-## Overview
+###
 
-The content of this repository includes:
+<img align="left" height="220" src="https://tenor.com/view/luci-disenchantment-noice-nice-gif-14838989"  />
 
-- Personal and academic projects  
-- Technical experiments and proof-of-concept implementations  
-- Progressive exploration of software design and architecture  
-- Continuous improvement through refactoring and iteration  
+###
 
-The goal is not only to deliver working solutions, but to understand the underlying concepts and trade-offs behind them.
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="37" alt="javascript logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="37" alt="typescript logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="37" alt="react logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="37" alt="html5 logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="37" alt="css3 logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="37" alt="python logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="37" alt="androidstudio logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="37" alt="cplusplus logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="37" alt="docker logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="37" alt="git logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="37" alt="github logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="37" alt="java logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="37" alt="laravel logo"  />
+  <img width="15" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="37" alt="mysql logo"  />
+</div>
 
-## Technologies & Concepts
+###
 
-You may find work involving:
+<br clear="both">
 
-- **C / C++** (including SFML, game logic, and low-level concepts)
-- **Java** (object-oriented programming, MVC, clean code practices)
-- **Web development** (HTML, CSS, JavaScript)
-- **Version control** (Git, GitHub workflows)
-- **Networking and security fundamentals** (in active study)
+<img src="https://raw.githubusercontent.com/5edrickk/5edrickk/output/snake.svg" alt="Snake animation" />
 
-## Purpose
+###
 
-This repository is intended as a living portfolio.  
-It documents progress, experimentation, and learning rather than presenting only polished or final products.
+<div align="center">
+  <img height="200" src="https://tenor.com/view/luci-disenchantment-noice-nice-gif-14838989"  />
+</div>
 
-Code quality and structure improve over time as new concepts are applied and previous decisions are revisited.
-
-## Project Status
-
-Ongoing development.  
-Some projects or features may be incomplete, reflecting active work or learning phases.
-
-## Contact
-
-For discussion, feedback, or collaboration:
-- GitHub: https://github.com/5edrickk
-
-<!--
-**5edrickk/5edrickk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###
