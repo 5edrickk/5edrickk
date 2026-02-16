@@ -12,7 +12,7 @@ Strong interest in backend development, system design, and understanding core en
 ---
 
 ### Professional focus
-- Web application development (frontend and backend)
+- Web application development (frontend and backend, but i prefer backend)
 - Scalable and maintainable system design
 - Clean code and clear abstractions
 - Continuous learning and technical improvement
@@ -41,13 +41,3 @@ Strong interest in backend development, system design, and understanding core en
 - Personal and academic projects demonstrating software engineering fundamentals
 - Codebases with an emphasis on readability and structure
 - Ongoing work reflecting consistent development activity
-
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-    <img alt="github contribution graph" src="github-snake.svg" />
-  </picture>
-</p>
