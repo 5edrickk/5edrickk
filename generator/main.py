@@ -35,22 +35,15 @@ def generate(args):
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
-    demo = getattr(args, "demo", False)
+    
 
-    # Load config
-    if demo:
-        config_path = os.path.join(os.path.dirname(__file__), "..", "config.example.yml")
-    else:
-        config_path = os.path.join(os.path.dirname(__file__), "..", "config.yml")
+    config_path = os.path.join(os.path.dirname(__file__), "..", "config.yml")
 
     try:
         with open(config_path, "r") as f:
             config = yaml.safe_load(f)
     except FileNotFoundError:
-        if demo:
-            logger.error("config.example.yml not found.")
-        else:
-            logger.error("config.yml not found. Copy config.example.yml to config.yml and edit it.")
+        logger.error("config.yml not found. Copy config.example.yml to config.yml and edit it.")
         sys.exit(1)
 
     try:
@@ -63,27 +56,22 @@ def generate(args):
 
     logger.info("Generating profile SVGs for @%s...", username)
 
-    if demo:
-        logger.info("Demo mode: using hardcoded stats and languages.")
-        stats = DEMO_STATS
-        languages = DEMO_LANGUAGES
-    else:
-        # Fetch GitHub data
-        api = GitHubAPI(username)
+    # Fetch GitHub data
+    api = GitHubAPI(username)
 
-        logger.info("Fetching stats...")
-        try:
-            stats = api.fetch_stats()
-        except (requests.exceptions.RequestException, ValueError, KeyError) as e:
-            logger.warning("Could not fetch stats (%s). Using defaults.", e)
-            stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+    logger.info("Fetching stats...")
+    try:
+        stats = api.fetch_stats()
+    except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+        logger.warning("Could not fetch stats (%s). Using defaults.", e)
+        stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
 
-        logger.info("Fetching languages...")
-        try:
-            languages = api.fetch_languages()
-        except (requests.exceptions.RequestException, ValueError, KeyError) as e:
-            logger.warning("Could not fetch languages (%s). Using defaults.", e)
-            languages = {}
+    logger.info("Fetching languages...")
+    try:
+        languages = api.fetch_languages()
+    except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+        logger.warning("Could not fetch languages (%s). Using defaults.", e)
+        languages = {}
 
     logger.info("Stats: %s", stats)
     logger.info("Languages: %d found", len(languages))
